@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "This app allows the user to enter a burger they desire to eat, and it will be dynamically populated on the page as HTML using handlebars. The user will also have a 'Devour' button which, when clicked, allows them to \"consume\" the burger, thus moving it from the left to the right side of the screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thescottbob/burger.git"
+  },
+  "author": "thescottbob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thescottbob/burger/issues"
+  },
+  "homepage": "https://github.com/thescottbob/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "npm": "^6.4.1"
+  }
+}

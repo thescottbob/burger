@@ -6,12 +6,12 @@ CREATE DATABASE burgers_DB;
 -- Make it so all of the following code will affect burgers_DB --
 USE burgers_DB;
 
-
 CREATE TABLE burgers (
   -- Numeric column --
-  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  id INT NOT NULL AUTO_INCREMENT,
   -- String column --
   burger_name VARCHAR(40) NOT NULL,
   -- Boolean column --
-  devoured BOOLEAN DEFAULT FALSE
+  devoured BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
 );

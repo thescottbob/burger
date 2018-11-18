@@ -1,1 +1,3 @@
 # burger
+
+The burger app allows the user to enter a burger that they desire to eat, and that burger will appear in an ordered list on the screen. This data is dynamically rendered to the page and stored in a SQL database. The user also has the option of 'Devouring' any burger on the screen by simply clicking the 'Devour' button, which moves the burger from the left to the right side of the screen. This app utilizes MySQL, Node, Express, Handlebars and a homemade ORM.
